@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+    text-align: center;
+
+}
+body{
+    background-color: rgba(14, 62, 165, 0.744)
+}
+
+.top-container {
+    background: url('images/alaska.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 0; /* Add this to remove any potential margin on .title */
+}
+
+.title h1, .title h2 {
+    margin: 0;
+}
+
+
+.title h1 {
+    color: #5edddd;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+  }
+  
+  .title h2 {
+    color: rgb(31, 5, 92);
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  hr {
+    border:groove;
+    border-style: dotted;
+ /*   border: dotted #829191 6px;*/
+    border-bottom: none;
+    width:25%;
+    margin:50;
+    border-color: black;
+  }
+  .the-middle{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+  }
+  .intro h3{
+    transition: font-size 0.1s, color 1s;
+  }
+  .intro h3:hover{
+        color: #5edddd;
+        font-size: 30px;
+        font-family: "Sacramento", cursive;
+        text-transform:capitalize;
+    }
+  .intro p{
+    transition: 1s
+  }
+  .intro p:hover{
+    color: aliceblue;
+    
+  }
+ .spikeball-image{
+        transition: transform 3s;
+ }
+ .spikeball-image:hover{
+ 
+        animation: RotateAndChange 4s linear;
+
+    }
+@keyframes RotateAndChange{
+    0%{
+        transform:rotate(0deg) scale(1);
+    }
+    50%{
+        transform:rotate(180deg) scale(0.5);
+    }
+    99%{
+        transform:rotate(360deg) scale(1);
+    }
+ 
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.last-part{
+        text-align: center;
+        padding-bottom: 20px;
+}
+.last-part h1{
+    font-family: Helvetica, cursive;
+}
+.last-part h2{
+    background: #436962;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+  
+}
+.last-part a {
+    color: #060a0a;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px auto 20px;
+    text-decoration: none;
+    background-color: #436962;
+  }
+  
+ .last-part a:hover {
+    background-color: #eaf6f6;
+  }
+  .contacts{
+    background-color: burlywood;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
